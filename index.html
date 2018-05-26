@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML examples</title>
+</head>
+<body>
+<!--    -->
+
+<form action="" method="POST">
+    <label for="user-name">Imię:</label>
+    <input id="user-name"  type="text" name="name" placeholder="Imię" tabindex=3><br>
+<!--    for w label odnosi się do id -->
+   
+    <input type="email" name="email" disabled><br>
+    <input type="number" name="quantity" value=2 tabindex=2><br> 
+<!--    nie nadaje się do nr tel-->
+  
+   <input type="checkbox" name="agreement" required id="agreement"> 
+   <label for="agreement">Wyrażam zgodę na</label><br>
+<!--   przekazuje wartość logiczną true/false-->
+ 
+  <label><input type="radio" name="gender">Kobieta<br></label>
+   <label><input type="radio" name="gender">Mężczyzna<br></label>
+<!--   name gender > wybór jest tylko jeden-->
+ 
+  <select name="cities" id="">
+      <option value="Warszawa">Warszawa</option>
+      <option value="Kraków">Kraków</option>
+      <option value="Gdańsk">Gdańsk</option>
+  </select> <br>
+  
+   <textarea name="message" tabindex=1></textarea><br>
+    <input type="submit" value="Wyślij formularz">
+    
+    
+</form>
+</body>
+
+
+</html>
